@@ -1,0 +1,54 @@
+{
+  "name": "gitbook-plugin-flexible-linkcard",
+  "version": "1.0.0",
+  "description": "Converts blockquotes into beautiful linkcard, custom nice links",
+  "main": "index.js",
+  "engines": {
+    "gitbook": ">=3.0.0"
+  },
+  "gitbook": {
+    "properties": {
+      "title": {
+        "type": "string",
+        "default": "Converts blockquotes into beautiful linkcard, custom nice links",
+        "description": "A title of the linkcard"
+      },
+      "hrefUrl": {
+        "type": "string",
+        "default": "../../demo/demo.html",
+        "description": "A url of the linkcard"
+      },
+      "target": {
+        "type": "string",
+        "default": "_blank",
+        "description": "A link jump mode of the linkcard"
+      },
+      "imgSrc": {
+        "type": "string",
+        "default": "../../images/home/logo.png",
+        "description": "A image of the linkcard"
+      },
+      "imgClass": {
+        "type": "string",
+        "default": "",
+        "description": "A imageClassName of the linkcard"
+      }
+    }
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HaoqiangChen/gitbook-plugin-flexible-linkcard.git"
+  },
+  "keywords": [
+    "gitbook",
+    "flexible-linkcard",
+    "hqbook"
+  ],
+  "author": "chenhaoqiang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HaoqiangChen/gitbook-plugin-flexible-linkcard/issues"
+  },
+  "homepage": "https://github.com/HaoqiangChen/gitbook-plugin-flexible-linkcard#readme"
+}
